@@ -1,0 +1,4 @@
+florenciam@florenciam:~/workspace$ cd AED/00-CppHelloWorld
+florenciam@florenciam:~/workspace/AED/00-CppHelloWorld$ g++ hello.cpp -std=c++17 -o hello.exe
+florenciam@florenciam:~/workspace/AED/00-CppHelloWorld$ ./hello.exe
+Hello, World!
