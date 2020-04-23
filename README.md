@@ -1,16 +1,16 @@
 # Algoritmos y Estructuras de Datos
 
 ## Curso
-### K1051
+K1051
 
 ## Año
-### 2020, Primer Cuatrimestre
+2020, Primer Cuatrimestre
 
 ## Legajo
-### 168099-7
+168099-7
 
 ## Apellido
-### Muratore
+Muratore
 
 ## Nombres
-### Florencia Camila
+Florencia Camila
