@@ -1,4 +1,4 @@
-###Compilador
-####g++
-###Entorno de desarrollo
-####Visual Studio Code
+### Compilador
+g++
+### Entorno de desarrollo
+Visual Studio Code
