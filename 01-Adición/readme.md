@@ -6,7 +6,7 @@
 *El programa deberá recibir y almacenar en dos variables distintas, dos dígitos que deberá ingresar el usuario por pantalla.*
 
 *El programa deberá contener dos variables numéricas de tipo enteras. En este caso utilizaremos las variables "a" y "b".*
-*Primero se solicitará al usuario que ingrese el primer dígito y se almacenará el valor ingresado por el mismo en la variable "a". Luego, que se le solicitará que ingrese el segundo a dígito almacenando su valor en la variable "b". Una vez almacenados ambos valores, se sumarán para luego mostrar el resultado de la suma por pantalla.*
+*Primero se solicitará al usuario que ingrese el primer dígito y se almacenará el valor ingresado por el mismo en la variable "a". Luego, se le solicitará que ingrese el segundo a dígito almacenando su valor en la variable "b". Una vez almacenados ambos valores, se sumarán para luego mostrar el resultado de la suma por pantalla.*
 
 ### Modelo IPO
 Z x Z → Suma → Z
