@@ -16,10 +16,10 @@ Z x Z → Suma → Z
 a,b ∈ Z
 
 ### Representación del Algoritmo
-#### Representación visual.
+#### Representación visual:
 ![Diagrama de Chapin/Lindsay/UTN FRBA](https://github.com/florenciacamila1996/AED/blob/master/01-Adici%C3%B3n/representaci%C3%B3n%20visual.jpg)
 
-#### Representación textual.
+#### Representación textual:
 ~~~
 Escribir "¡Bienvenid@! Por favor, ingrese el primer dígito a sumar:".
 Leer un número entero y almacenarlo en la variable "a".
