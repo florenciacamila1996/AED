@@ -17,7 +17,7 @@ a,b ∈ Z
 
 ### Representación del Algoritmo
 #### Representación visual.
-![Representación visual](https://drive.google.com/file/d/1Fcg6wMWpCh2FMYCiHfCB5PKVZLqvyNg0/view?usp=sharing)
+![Diagrama de Chapin/Lindsay/UTN FRBA](https://github.com/florenciacamila1996/AED/blob/master/01-Adici%C3%B3n/representaci%C3%B3n%20visual.jpg)
 
 #### Representación textual.
 ~~~
