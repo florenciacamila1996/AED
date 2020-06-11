@@ -1,5 +1,5 @@
 ## Etapa #1: Análisis del problema:
-#### Problema
+### Problema
 Dado un año, determinar si es bisiesto.
 
 ### Restricciones
