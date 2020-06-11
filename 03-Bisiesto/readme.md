@@ -3,11 +3,11 @@
 Dado un año, determinar si es bisiesto.
 
 ### Restricciones
-• Desarrollar la lógica en una función.
-• El nombre de la función debe ser IsBisiesto.
-• Aplicar operadores booleanos.
-• No aplicar el operador condicional.
-• No aplicar if ni switch.
+- Desarrollar la lógica en una función.
+- El nombre de la función debe ser IsBisiesto.
+- Aplicar operadores booleanos.
+- No aplicar el operador condicional.
+- No aplicar if ni switch.
 
 ### Hipótesis del trabajo
 El programa deberá recibir un año y determinar si es bisiesto o no. El año puede estar ingresado directamente en el código del programa o puede ser ingresado por el usuario, teniendo en cuenta las restricciones ya indicadas y sin utilizar un operador condicional, if o switch.
@@ -18,8 +18,8 @@ Se creará la función IsBisiesto, la cual determinará si un año es bisiesto o
 Se tomará un año ingresado por el usuario y se imprimirá el mensaje "Es Bisiesto." si el valor de la variable esBisiesto es "true", de lo contrario, el programa terminará su ejecución con un error. Esto último se debe a que se utiliza la función assert para validar la respuesta de la función almacenada en la variable esBisiesto.
 
 ### Modelo IPO
-B = {true,false}
-N → Función IsBisiesto → B
+- B = {true,false}
+- N → Función IsBisiesto → B
 
 ## Etapa #2 Diseño de la Solución:
 ### Léxico
@@ -39,7 +39,7 @@ bool IsBisiesto(int a){
 }
 
 ### Árbol de expresión
-![Árbol de expresión]()
+![Árbol de expresión](https://github.com/florenciacamila1996/AED/blob/master/03-Bisiesto/Im%C3%A1genes/%C3%81rbol%20de%20expresi%C3%B3n.jpg)
 
 ## Compilación y ejecución
 #### Compilación
