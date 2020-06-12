@@ -1,17 +1,17 @@
-#include <iostream>
+/* FCM
+ * 20200611
+ * IsBisiesto
+*/
 #include <assert.h>
-
-using namespace std;
 
 bool IsBisiesto(int a);
 
 int main(){
-   int anio;
-   cout << "A continuación ingrese un año. El programa imprimirá 'Es bisiesto.' si el año ingresado es bisiesto, de lo contrario, terminará con un error.\nAño: ";
-   cin >> anio;
-   bool esBisiesto = IsBisiesto(anio);
-   assert(esBisiesto==true);
-   cout << "Es bisiesto.";
+
+   assert(IsBisiesto(2020));
+   assert(IsBisiesto(2400));
+   assert(IsBisiesto(2019));
+   assert(IsBisiesto(2300));
 }
 bool IsBisiesto(int a){
    bool anioBisiesto = false;

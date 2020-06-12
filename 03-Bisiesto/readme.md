@@ -10,24 +10,30 @@ Dado un año, determinar si es bisiesto.
 - No aplicar if ni switch.
 
 ### Hipótesis del trabajo
-El programa deberá recibir un año y determinar si es bisiesto o no. El año puede estar ingresado directamente en el código del programa o puede ser ingresado por el usuario, teniendo en cuenta las restricciones ya indicadas y sin utilizar un operador condicional, if o switch.
+El programa determinará si un número entero es bisiesto o no, haciendo uso de una función llamada IsBisiesto, la cual contemplará las siguientes condiciones (al mismo tiempo) para que un número entero sea un año bisiesto:
+- Es bisiesto si es divisible entre 4.
+- No es bisiesto si es divisible entre 100.
+- Es bisiesto si es divisible entre 400.
 
 ### Refinamiento
-Se creará la función IsBisiesto, la cual determinará si un año es bisiesto o no. Dentro de la función main, se llamará a la función IsBisiesto y la respuesta de esta última se almacenará en la variable booleana esBisiesto.
-
-Se tomará un año ingresado por el usuario y se imprimirá el mensaje "Es Bisiesto." si el valor de la variable esBisiesto es "true", de lo contrario, el programa terminará su ejecución con un error. Esto último se debe a que se utiliza la función assert para validar la respuesta de la función almacenada en la variable esBisiesto.
+Se creará la función IsBisiesto, la cual determinará si un año es bisiesto o no. Dentro de la función main, se llamará a la función IsBisiesto la cual determina si un número entero corresponde a un año bisiesto o no, en caso de que cumpla las siguientes condiciones al mismo tiempo:
+- Es divisible entre 4.
+- No es divisible entre 100.
+- Es divisible entre 400.
 
 ### Modelo IPO
-- B = {true,false}
-- N → Función IsBisiesto → B
+Z → Función IsBisiesto → B
 
 ## Etapa #2 Diseño de la Solución:
 ### Léxico
-anio ∈ Z; esBisiesto ∈ B
+año ∈ Z; esBisiesto ∈ B
 
 ### Pruebas
-1. Igresar un año que sea divisible por 4 pero no por 100 y sí por 400. Resultado esperado: se recibe el mensaje "Es bisiesto.".
-2. Ingresar un año que sea divisible por 4, por 100 y por 400. Resultado esperado: se recibe un error y el programa termina su ejecución.
+1. Enviar a la función el entero 2020 el cual es divisible entre 4 pero no entre 100 ni entre 400, y que la función retorne el valor: true.
+2. Enviar a la función el entero 2400 el cual es divisible entre 4, 100 y 400, y que la función retorne el valor: true.
+3. Enviar a la función el entero 2019 el cual no es divisible ni entre 4 ni entre 100 ni entre 400, y que la función retorne el valor: false.
+4. Enviar a la función el entero 2300 el cual no es divisible ni entre 4 ni entre 400 pero sí entre 100 y que la función retorne: false.
+
 
 ### Prototipo
 bool IsBisiesto(int a);
